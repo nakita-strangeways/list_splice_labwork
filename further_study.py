@@ -217,10 +217,15 @@ def custom_reverse(input_list):
 
     """
 
-    #Still broken#
-    # input_list[-1::-1]
+ 
+    # reversed_list = input_list[-1::-1]
+    # input_list[:] = reversed_list
 
-    pass
+    ###OR
+
+    input_list[-1::-1] = input_list
+ 
+
 
 
 def custom_contains(input_list, value):
